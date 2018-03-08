@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Clone the source and build the app. You'll need [Java](http://www.java.com/en/download/manual.jsp) and [Maven](http://maven.apache.org) in order to build. It probably wouldn't hurt to have download and install [MongoDB](http://www.mongodb.org/downloads) either.
+Clone the source and build the app. You'll need [Java](http://www.java.com/en/download/manual.jsp) and [Maven](http://maven.apache.org) in order to build. It probably wouldn't hurt to have download and install [MongoDB](https://www.mongodb.com/download-center) either.
 
     $ git clone http://github.com/niccottrell/openshift-checkins.git
     $ cd openshift-checkins
