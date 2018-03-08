@@ -4,7 +4,7 @@
 
 Clone the source and build the app. You'll need [Java](http://www.java.com/en/download/manual.jsp) and [Maven](http://maven.apache.org) in order to build. It probably wouldn't hurt to have download and install [MongoDB](http://www.mongodb.org/downloads) either.
 
-    $ git clone http://github.com/crcsmnky/openshift-checkins.git
+    $ git clone http://github.com/niccottrell/openshift-checkins.git
     $ cd openshift-checkins
     $ mvn package
 
@@ -16,4 +16,4 @@ Now you can deploy the ``checkins.war`` file to OpenShift. Once deployed, test i
 
     $ curl -X POST -d "comment=hello&x=1&y=1" http://appurl.rhcloud.com/checkin
 
-For a more in-depth guide, refer to the [OpenShift Quickstart](http://www.mongodb.org/display/DOCS/OpenShift+Quickstart) guide at [mongodb.org](http://www.mongodb.org).
+For a more in-depth guide, refer to the [OpenShift Quickstart](https://docs.mongodb.com/ecosystem/platforms/red-hat-openshift/) guide at [mongodb.org](http://www.mongodb.com).
